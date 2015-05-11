@@ -1,11 +1,12 @@
 #!/bin/bash
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}")/../" && pwd )"
-BaseV1=$DIR/src/protected/application/themes/BaseV1/assets
+#BaseV1=$DIR/src/protected/application/themes/BaseV1/assets
+BaseV1=$DIR/src/protected/application/themes/RS/assets
 
 if [ $1 ]; then
 	CONFIG=$1
-else 
+else
 	CONFIG=config.php
 fi
 
