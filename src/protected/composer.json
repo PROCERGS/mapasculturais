@@ -14,12 +14,12 @@
         "mustache/mustache": "v2.5.1",
         "phpoffice/phpword": "dev-master",
         "michelf/php-markdown": "1.4.1",
-        "opauth/logincidadao" : "*",
+        "opauth/logincidadao" : "dev-master",
         "curl/curl": "1.2.0"
     },
 
     "repositories": [{
         "type": "git",
-        "url": "https://github.com/hacklabr/opauth-logincidadao.git"
+        "url": "https://github.com/PROCERGS/opauth-logincidadao"
     }]
 }

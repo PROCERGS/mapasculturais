@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b53606a1f7f4c8e73fd1dfdc1bd102d8",
+    "hash": "33302212f1affbc1f4571d9837407854",
     "packages": [
         {
             "name": "creof/doctrine2-spatial",
@@ -816,11 +816,11 @@
         },
         {
             "name": "opauth/logincidadao",
-            "version": "1.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hacklabr/opauth-logincidadao.git",
-                "reference": "8e7545ad02610e3c2d13184810cdc55d6b2c2f42"
+                "url": "https://github.com/PROCERGS/opauth-logincidadao",
+                "reference": "4b74b4f7022ee4eb45a88cc61550292b9e7abe34"
             },
             "require": {
                 "opauth/opauth": ">=0.2.0",
@@ -848,7 +848,7 @@
                 "authentication",
                 "logincidadao"
             ],
-            "time": "2014-12-12 13:30:51"
+            "time": "2015-05-11 15:05:02"
         },
         {
             "name": "opauth/opauth",
@@ -2143,7 +2143,8 @@
     "stability-flags": {
         "smottt/wideimage": 20,
         "creof/doctrine2-spatial": 20,
-        "phpoffice/phpword": 20
+        "phpoffice/phpword": 20,
+        "opauth/logincidadao": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
